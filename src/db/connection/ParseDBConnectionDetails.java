@@ -39,7 +39,7 @@ public class ParseDBConnectionDetails {
 
         Properties properties = new Properties();
         try (FileInputStream fileInputStream =
-                     new FileInputStream("C:\\Users\\m.ulvi\\IdeaProjects\\with-jdbc-connection-app - Copy\\src\\db.properties")) {
+                     new FileInputStream("C:\\Users\\m.ulvi\\IdeaProjects\\with-jdbc-connection-app---Copy\\src\\db.properties")) {
             properties.load(fileInputStream);
         } catch (IOException ioe) {
             ioe.printStackTrace();

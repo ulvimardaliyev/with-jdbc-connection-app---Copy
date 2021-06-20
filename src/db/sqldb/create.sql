@@ -1,9 +1,5 @@
-select *
-from contact_of_user;
-select *
-from user_details;
 -- create schema register_login_users;
-use register_login_users;
+use register_login_users1;
 
 CREATE TABLE contact_of_user (
   contactID                    INT PRIMARY KEY AUTO_INCREMENT,
@@ -20,7 +16,7 @@ CREATE TABLE user_details (
   name             VARCHAR(255),
   surname          VARCHAR(255),
   username         VARCHAR(255),
-  password         blob,
+  password         varchar(512),
   registrationDate VARCHAR(255)
 );
 drop table user_details;

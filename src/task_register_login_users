@@ -1,0 +1,8 @@
+Qeydiyyatda ve login ucun program yazmali. Program console based ishleyecek. Ilkin bashlayanda ekrana
+1) Daxil olmaq ucun 1
+2) Qeydiyyatdan kecmek ucun ise 2 daxil edin
+Bazanin strukturunu qurmaq lazimdir hansi ki userid adini soyadini istifadeci adini qeydiyyat tarixini ve sifresini saxlasin.
+Contact melumatlari ise minimum 3 nomre 2 email address (1-i esas digeri ise elave) yashayish qeydiyyat yeri olmalidir. Shifre aciq formada saxlanmamalidir.
+Username ve email (esas email) tekrari olmamalidir eger artiq varsa qeydiyyati ekrana bu username veya email artiq qeydiyyatdan kecib o zaman ekrana shifreni
+deyishmek isteyirsinizmi mesaji cixsin. Sifreni deyishmek ucun ise username ve esas mail addresini istesin ve iki defe yeni shifrenin daxil olmagini
+teleb etsin.
